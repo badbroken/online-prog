@@ -1,0 +1,7 @@
+a=int(input())
+input_string = input()
+userList = input_string.split()
+userList.sort()
+newUserList = list(dict.fromkeys(userList))
+print(newUserList)
+print(newUserList[len(newUserList)-2])
